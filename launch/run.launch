@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="pcd2csv" type="pcd2csv_node" name="pcd2csv_node" output="screen">
+    <param name="pcd_file_name" value="road_map_2.pcd" />
+    <param name="csv_file_name" value="road_map_2.csv" />
+  </node>
+
+</launch>
